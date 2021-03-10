@@ -10,10 +10,12 @@
 
 
     <script>
-        var world = ["China", "Iran", "Nigeria", "USA", "Norway", "Ghana", "UK", "India", "Afghanistan"];
+        var world = ["China", "Iran", "Nigeria", "USA", "Norway", "Ghana", "UK", "India"];
 
         var status = world.every((x)=> x != "Afghanistan");
-        console.log( status == true? "The world is safe": "The world is not safe")
+        
+        
+        console.log(` ${status== "true"? "The world is safe": "The world is not safe"}`);
     </script>
 </body>
 </html>
